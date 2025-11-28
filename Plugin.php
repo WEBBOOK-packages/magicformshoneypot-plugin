@@ -44,6 +44,10 @@ class Plugin extends PluginBase
         foreach ($this->compatPlugins as $plugin) {
             Event::listen( $plugin . '.beforeSaveRecord', function (array &$post, object $component): void {
                 if (! empty($post['web']) || ! array_key_exists('web-url', $post) || ! empty($post['web-url'])) {
+                    $post['HONEYPOT_web'] = $post['web'];
+                    unset($post['web']);
+                    $post['HONEYPOT_TIMED_web-url'] = $post['web-url'];
+                    unset($post['web-url']);
                     Log::info('Magic Forms submission dismissed.' . PHP_EOL . PHP_EOL . 'Form alias/name: ' . $component->alias . '/' . $component->name . PHP_EOL . PHP_EOL . print_r($post, true));
                     $component->setProperty('mail_enabled', 0);
                     $component->setProperty('mail_resp_enabled', 0);
