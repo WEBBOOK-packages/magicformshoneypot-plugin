@@ -5,7 +5,7 @@ namespace RegularJogger\MagicFormsHoneypot\Components;
 use Cms\Classes\ComponentBase;
 
 /**
- * HoneypotSAssets Component
+ * HoneypotAssets Component
  *
  * @link https://docs.octobercms.com/4.x/extend/cms-components.html
  */
