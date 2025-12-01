@@ -28,9 +28,9 @@ class Plugin extends PluginBase
     }
 
     /**
-     * @var array compatible plugins
+     * compatible plugins
      */
-    public $compatPlugins = [
+    public array $compatPlugins = [
         'martin.forms',
         'blakejones.magicforms',
         'publipresse.forms'
