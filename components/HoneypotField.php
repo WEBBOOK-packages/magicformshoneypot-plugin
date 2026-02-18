@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace RegularJogger\MagicFormsHoneypot\Components;
+namespace WebBook\MagicFormsHoneypot\Components;
 
 use Cms\Classes\ComponentBase;
 

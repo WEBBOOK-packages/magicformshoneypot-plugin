@@ -14,7 +14,7 @@ Detected bot submissions won't be saved to the database or e-mailed anywhere at 
 
 ## Instructions
 ### Instal the plugin
-`php artisan plugin:install RegularJogger.MagicFormsHoneypot --from=git@github.com:regularjogger/magicformshoneypot-plugin.git`
+`php artisan plugin:install WebBook.MagicFormsHoneypot --from=git@github.com:WEBBOOK-packages/magicformshoneypot-plugin.git`
 
 ### Add the honeypot field to your form markup
 `{% component 'honeypotField' %}` is made available to you to do that. Just place it logically in your markup so it makes sense in the context of the form.

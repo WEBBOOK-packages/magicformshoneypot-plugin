@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace RegularJogger\MagicFormsHoneypot\Classes\Events;
+namespace WebBook\MagicFormsHoneypot\Classes\Events;
 
 use Cms\Classes\ComponentBase;
 use Illuminate\Http\Request;

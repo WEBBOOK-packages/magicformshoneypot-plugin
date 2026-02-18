@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace RegularJogger\MagicFormsHoneypot;
+namespace WebBook\MagicFormsHoneypot;
 
 use System\Classes\PluginBase;
 use Event;
-use RegularJogger\MagicFormsHoneypot\Classes\Events\FormSubmissionHandler;
-use RegularJogger\MagicFormsHoneypot\Components\HoneypotField;
+use WebBook\MagicFormsHoneypot\Classes\Events\FormSubmissionHandler;
+use WebBook\MagicFormsHoneypot\Components\HoneypotField;
 
 /**
  * Plugin Information File
@@ -32,9 +32,9 @@ class Plugin extends PluginBase
         return [
             'name' => 'Magic Forms Honeypot',
             'description' => 'Dismisses bot submissions to Magic Forms using the honeypot technique.',
-            'author' => 'RegularJogger',
+            'author' => 'WebBook',
             'icon' => 'icon-bolt',
-            'homepage' => 'https://github.com/regularjogger/magicformshoneypot-plugin',
+            'homepage' => 'https://github.com/WEBBOOK-packages/magicformshoneypot-plugin',
         ];
     }
 

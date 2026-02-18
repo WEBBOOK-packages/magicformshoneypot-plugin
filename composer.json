@@ -1,8 +1,8 @@
 {
-    "name": "regularjogger/magicformshoneypot-plugin",
+    "name": "webbook/magicformshoneypot-plugin",
     "type": "october-plugin",
     "description": "Dismisses bot submissions to Magic Forms using the honeypot technique.",
-    "homepage": "https://github.com/regularjogger/magicformshoneypot-plugin",
+    "homepage": "https://github.com/WEBBOOK-packages/magicformshoneypot-plugin",
     "license": "MIT",
     "require": {
         "composer/installers": "~1.0",
