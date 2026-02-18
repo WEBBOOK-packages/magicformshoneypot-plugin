@@ -15,6 +15,16 @@ use RegularJogger\MagicFormsHoneypot\Components\HoneypotField;
 class Plugin extends PluginBase
 {
     /**
+     * compatible plugins
+     */
+    protected array $compatiblePlugins = [
+        'martin.forms',
+        'blakejones.magicforms',
+        'publipresse.forms',
+        'webbook.forms',
+    ];
+
+    /**
      * pluginDetails about this plugin.
      */
     public function pluginDetails(): array
@@ -27,15 +37,6 @@ class Plugin extends PluginBase
             'homepage' => 'https://github.com/regularjogger/magicformshoneypot-plugin',
         ];
     }
-
-    /**
-     * compatible plugins
-     */
-    protected array $compatiblePlugins = [
-        'martin.forms',
-        'blakejones.magicforms',
-        'publipresse.forms'
-    ];
 
     /**
      * boot method, called right before the request route.
