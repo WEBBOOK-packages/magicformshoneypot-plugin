@@ -16,7 +16,7 @@ class HoneypotField extends ComponentBase
         return [
             'name' => 'Honeypot field',
             'description' => 'Injects honeypot input field with required assets in your form.',
-            'icon' => 'icon-add-below'
+            'icon' => 'icon-add-below',
         ];
     }
 

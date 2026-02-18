@@ -24,7 +24,7 @@ class Plugin extends PluginBase
             'description' => 'Dismisses bot submissions to Magic Forms using the honeypot technique.',
             'author' => 'RegularJogger',
             'icon' => 'icon-bolt',
-            'homepage' => 'https://github.com/regularjogger/magicformshoneypot-plugin'
+            'homepage' => 'https://github.com/regularjogger/magicformshoneypot-plugin',
         ];
     }
 
@@ -53,7 +53,7 @@ class Plugin extends PluginBase
     public function registerComponents(): array
     {
         return [
-            HoneypotField::class => 'honeypotField'
+            HoneypotField::class => 'honeypotField',
         ];
     }
 }
